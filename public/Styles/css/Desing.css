@@ -1,0 +1,115 @@
+html,body {height: 100%; }
+/* margin */
+#mr--60{margin-right: -60px}
+#mb--5{margin-bottom: -5px}
+
+.resim-ac img{max-width:200px; margin-left: 20px; position: absolute; background-color: #fff; border: 1px #4a5568 solid; display:none;}
+.resim-ac:hover img {
+    display:block;
+    transition-property: all;
+    transition-duration: 0.5ms;
+    transition-timing-function: cubic-bezier(0, 2, 0.5, 2);
+}
+
+/* Opacity */
+
+.opacity-0h5 {
+    opacity:0!important;
+    transition: opacity .25s ease-in-out!important;
+    -moz-transition: opacity .25s ease-in-out!important;
+    -webkit-transition: opacity .25s ease-in-out!important;
+}
+.opacity-0h5:hover {opacity:1!important;}
+
+/* Hover block none */
+.card .hover-hide{
+    text-align: center;
+    width: 70%;
+    padding: 3%;
+    margin: 100px auto;
+    display: none;
+}
+.card:hover .hover-hide{
+    display: block;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Background Color */
+.bg-black {background-color: black; color: #fff;}
+.bg-red {background-color: #e60000}
+.bg-yellow {background-color: #ffa500; color: #1a202c}
+.bg-grey {background-color: #ecf0fa}
+.bg-dark2 {background-color: #081e3e}
+.bg-primary-gradient {background-image: linear-gradient(to left, #0db2de 0%, #005bea 100%)}
+.bg-dark-gradient {background-image: linear-gradient(to left, #4a5568 0%, #1b1e21 100%)}
+.bg-purple-gradient {background-image: linear-gradient(to left, #6c757d 0%, #721c24 100%)}
+.bg-danger-gradient {background-image: linear-gradient(45deg, #f93a5a, #f7778c) !important}
+.bg-success-gradient {background-image: linear-gradient(to left, #48d6a8 0%, #029666 100%) !important;}
+.bg-warning-gradient {background-image: linear-gradient(to left, #efa65f, #f76a2d) !important;}
+
+/* Background Hover */
+.bg-dark-hover {background-color: #343a40}
+.bg-dark-hover:hover {background-color: #fb9000}
+
+/* Hover Shadow */
+.hover-shadow {transition: box-shadow 0.3s ease-in-out;}
+.hover-shadow:hover {box-shadow: 0 5px 15px rgba(0,0,0,0.3);}
+
+.hover-border {transition: box-shadow 0.3s ease-in-out;}
+.hover-border:hover {border: #ccc 1px solid; border-radius: 5px;}
+
+
+.scrollbar-grey::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+}
+@media (min-width:200px){
+    .ht-50   {height: 50px}
+    .ht-150     {height: 150px}
+    .ht-200-sm  {height: 200px}
+    .ht-250-sm  {height: 250px}
+    .ht-350-sm  {height: 350px}
+    .ht-400-sm  {height: 400px}
+}
+
+@media (min-width:1200px){
+
+/* Card Desing */
+.card {min-width:25%; margin-left: -7px; margin-right: -7px; border-radius: 7px;}
+
+
+/* Height Settings */
+.ht-10  {height: 10px;}
+.ht-20  {height: 20px;}
+.ht-30  {height: 30px;}
+.ht-35  {height: 35px;}
+.ht-40  {height: 40px;}
+.ht-50  {height: 50px;}
+.ht-60  {height: 60px;}
+.ht-70  {height: 70px;}
+.ht-100 {height: 100px;}
+.ht-110 {height: 110px;}
+.ht-120 {height: 120px;}
+.ht-130 {height: 130px;}
+.ht-140 {height: 140px;}
+.ht-150 {height: 150px;}
+.ht-190 {height: 190px;}
+.ht-200 {height: 200px;}
+.ht-210 {height: 210px;}
+.ht-250 {height: 250px;}
+.ht-280 {height: 280px;}
+.ht-300 {height: 300px;}
+.ht-320 {height: 320px;}
+.ht-330 {height: 330px;}
+.ht-340 {height: 340px;}
+.ht-350 {height: 350px;}
+.ht-370 {height: 370px;}
+.ht-390 {height: 390px;}
+.ht-400 {height: 400px;}
+.ht-450 {height: 450px;}
+.ht-500 {height: 500px;}
+.ht-600 {height: 600px;}
+
+
+}
