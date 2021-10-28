@@ -7,10 +7,10 @@ Laravel 8 ile oluşturulmuş ve basit şekilde düşünülmüş kategori, ürün
 - Ürünler Modülü (Ürün Ekleme, Düzenleme, Silme)
 
 <h2>1) Laravel Kurulumu</h2>
-a) Daha önce composer kurulumu yapılmamışsa kurulum yap. https://getcomposer.org/Composer-Setup.exe
-a) Terminalden C:\AppServ\www klasörünün içine gir
+a) Daha önce composer kurulumu yapılmamışsa kurulum yap. https://getcomposer.org/Composer-Setup.exe<br>
+b) Terminalden C:\AppServ\www klasörünün içine gir
 <pre>cd C:\AppServ\www</pre>
-b) Komutu yaz (projeadi kısmını istediğin gibi değiştirebilirsin):
+c) Komutu yaz (projeadi kısmını istediğin gibi değiştirebilirsin):
 <pre>composer create-project --prefer-dist laravel/laravel projeadi</pre>
 <h2>2) AppServ Kurulumu</h2>
 https://www.appserv.org/en/download/ sitesinden programı indirip kurun.
